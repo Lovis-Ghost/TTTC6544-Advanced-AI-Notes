@@ -1,8 +1,8 @@
-# TTTC6544 Advanced AI Notes
+# TTTC6544-Advanced-AI-Notes
 
 ## About this repository
 
-This repo is my personal learning note for TC6544 Advanced Artificial Intelligence. I use it to record what I learned from lectures and to connect the theory with small Python examples. The notes are bilingual because I am still building my English academic vocabulary.
+This repo is my personal learning portfolio for TC6544 Advanced Artificial Intelligence. I use it to record what I learned from lectures and to connect the theory with small Python examples. The notes are bilingual because I am still building my English academic vocabulary.
 
 ## Why I created this repo
 
@@ -50,17 +50,17 @@ I have covered the topics taught so far in class. For topics not taught yet, I o
 
 ## How to run the code
 
-Use Python 3. No extra library is needed.
+Use Python 3. No extra library is needed. On my Mac, I run the scripts with `python3`.
 
 ```bash
-python code/bfs_dfs_state_space.py
-python code/a_star_search.py
-python code/greedy_tsp_nearest_neighbor.py
-python code/hill_climbing_tsp.py
-python code/simulated_annealing_tsp.py
-python code/great_deluge_tsp.py
-python code/tabu_search_tsp.py
-python code/genetic_algorithm_maxone.py
+python3 code/bfs_dfs_state_space.py
+python3 code/a_star_search.py
+python3 code/greedy_tsp_nearest_neighbor.py
+python3 code/hill_climbing_tsp.py
+python3 code/simulated_annealing_tsp.py
+python3 code/great_deluge_tsp.py
+python3 code/tabu_search_tsp.py
+python3 code/genetic_algorithm_maxone.py
 ```
 
 ## Reflection

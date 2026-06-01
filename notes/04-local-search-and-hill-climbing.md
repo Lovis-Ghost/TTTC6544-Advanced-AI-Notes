@@ -20,11 +20,13 @@ Hill Climbing is a simple local search method. It looks at neighbouring solution
 
 ## 3. My understanding / 我的理解
 
-Hill climbing is easy to understand because it is like always walking uphill. If we are maximizing, we move to a higher value. If we are minimizing, we move to a lower cost.
+Hill climbing is easy to understand because it is like always walking uphill. If we are maximizing, we move to a higher value. If we are minimizing, we move to a lower cost. 中文里面我会把它记成：只要附近有更好的，就搬过去。
 
 But the weakness is also clear. If the algorithm reaches a place where all neighbours are worse, it stops. The problem is that this point may only be a local optimum.
 
 For TSP, a solution can be one route. A neighbour can be made by swapping two cities. If the new route distance is shorter, hill climbing accepts it.
+
+This topic also made me notice that local search does not really care about the full path from start to goal. It cares more about improving the current answer. 这一点跟 state space search 的感觉不太一样。
 
 ## 4. Step-by-step idea / 基本流程
 
@@ -51,12 +53,26 @@ A -> C -> B -> D -> A
 
 If the new route is shorter, hill climbing keeps the new route. If not, it stays with the old one.
 
+Example with simple costs:
+
+```text
+Current route cost = 95
+Neighbour route cost = 80
+Since 80 is better for minimization, accept it.
+
+Next neighbour cost = 90
+Since 90 is worse than 80, reject it.
+```
+
+This is simple, but it also shows why hill climbing may miss a better answer that needs one bad step first.
+
 ## 6. Common mistakes I made / 我容易混淆的地方
 
 - I forgot that hill climbing can be used for minimization too. "Up" just means better.
 - I thought stopping means the global best is found. Actually it may only be local optimum.
 - I sometimes generated neighbours in a random way and then wondered why the result changed each run.
 - I confused hill climbing with simulated annealing. Hill climbing rejects worse moves, but simulated annealing may accept them sometimes.
+- I forgot to say clearly whether the problem is maximization or minimization before comparing solutions.
 
 ## 7. Self-check questions / 自测问题
 
@@ -64,6 +80,7 @@ If the new route is shorter, hill climbing keeps the new route. If not, it stays
 2. Why can hill climbing get stuck?
 3. How can TSP create neighbours?
 4. What is the difference between local optimum and global optimum?
+5. Why might accepting only better moves be too strict?
 
 ## 8. Short summary / 小结
 

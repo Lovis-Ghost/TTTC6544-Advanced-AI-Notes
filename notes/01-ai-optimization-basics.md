@@ -21,11 +21,13 @@ Optimization means we have many possible choices, but we want the best one or at
 
 ## 3. My understanding / 我的理解
 
-我觉得 AI 的很多问题最后都会变成一个选择问题。比如找路线、排时间表、玩游戏、分类资料，表面上很不同，但都需要在很多可能性里面做决定。
+我觉得 AI 的很多问题最后都会变成一个选择问题。比如找路线、排时间表、玩游戏、分类资料，表面上很不同，但都需要在很多可能性里面做决定。老师讲 optimization 的时候，我开始明白不是每个 AI 问题都一定要像人一样思考，有时候重点是把问题写成可以 search 的形式。
 
 At first I confused objective function and fitness function. Later I realized they are similar ideas used in different contexts. Objective function sounds more general. Fitness function is often used when we talk about population-based methods like Genetic Algorithm.
 
 Another thing I learned is that "best" is not always simple. Sometimes the best route is shortest distance. Sometimes it must also consider time, cost, traffic, or other constraints. So before solving a problem, we must define what "good" means.
+
+我也觉得 objective function 有点像给电脑的评分标准。如果评分标准写错了，algorithm 可能很努力地优化，但优化出来的答案还是不符合真实需求。
 
 ## 4. Step-by-step idea / 基本流程
 
@@ -48,11 +50,20 @@ Suppose I want to choose a path from my house to university.
 
 If the map is small, I may check all routes. If the map is very large, I need a smarter search method.
 
+Another simple example is exam revision planning:
+
+- Solution: one possible timetable for revision.
+- Objective function: maximize prepared topics, or minimize weak topics left.
+- Constraint: only a few days before exam, and cannot study 24 hours.
+
+这个例子让我觉得 optimization 不只是数学题，也可以是生活里面的安排问题。
+
 ## 6. Common mistakes I made / 我容易混淆的地方
 
 - I sometimes forgot that the objective function must match the actual problem.
 - I thought local optimum always means a bad solution, but actually it can still be useful.
 - I mixed up constraints and objective function. Constraint decides if a solution is allowed. Objective function evaluates how good it is.
+- I sometimes used "best" too casually. I should ask: best according to what measurement?
 
 ## 7. Self-check questions / 自测问题
 
@@ -60,6 +71,7 @@ If the map is small, I may check all routes. If the map is very large, I need a 
 2. Why do we need an objective function?
 3. Can a local optimum be useful?
 4. What happens if the objective function is poorly designed?
+5. In my own project, what could be a solution, objective function, and constraint?
 
 ## 8. Short summary / 小结
 
