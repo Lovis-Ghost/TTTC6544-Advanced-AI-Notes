@@ -8,6 +8,13 @@ This repo is my personal learning portfolio for TC6544 Advanced Artificial Intel
 
 I wanted one place to keep my revision notes, examples, and small reflections. Some topics are still a bit messy in my head, so I write them in my own words first instead of trying to sound like a textbook.
 
+## What this repo shows
+
+- I can organize lecture knowledge into structured notes.
+- I can connect AI search and optimization concepts with small Python demos.
+- I understand the basic differences between heuristic search, local search, metaheuristics, population-based algorithms, and hyper-heuristics.
+- I am still updating the repo as the course continues.
+
 ## Course map
 
 | No. | Topic | Status |
@@ -79,3 +86,7 @@ python3 code/genetic_algorithm_maxone.py
 ## Reflection
 
 At first I thought many algorithms were totally different. After a few lectures, I started to see that many of them are trying to answer the same question: how do we move from the current solution to a better one without checking everything? I still need more practice with choosing objective functions and understanding when a heuristic is useful.
+
+## Note
+
+These notes are my own study summaries based on lectures and personal practice. They are not official course materials.
