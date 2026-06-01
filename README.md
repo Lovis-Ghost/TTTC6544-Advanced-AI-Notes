@@ -40,6 +40,19 @@ The current notes focus on AI as search and optimization. I have written more de
 - Genetic algorithm
 - Hyper-heuristics
 
+## Learning Roadmap
+
+AI Optimization Basics
+-> State Space Search
+-> Heuristic Search and A*
+-> Local Search
+-> Metaheuristics: SA, GD, Tabu Search
+-> Population-based Algorithm: Genetic Algorithm
+-> Hyper-Heuristics
+-> Topics not covered yet: Nature Inspired Algorithms, Neural Network, Fuzzy Logic
+
+This roadmap helps me see the course as one connected learning path, instead of separate algorithms.
+
 ## Python demos
 
 The `code/` folder contains small Python scripts. They are not production code. They are just learning demos so I can see the algorithm steps printed in the terminal.
