@@ -1,8 +1,10 @@
-# Review Plan
+# Review Plan / 复习计划
 
 This is my simple study plan for revising TC6544 Advanced Artificial Intelligence. It is not final yet, because some topics are still not covered in class.
 
-## What I should review before exam
+这是我用来复习 TC6544 Advanced Artificial Intelligence 的简单计划。它不是最终版本，因为有些主题还没有正式学完，之后会继续补充。
+
+## What I should review before exam / 考前要复习的内容
 
 - AI and optimization basics: objective function, constraints, search space.
 - State space search: state, action, initial state, goal state, search tree.
@@ -13,7 +15,7 @@ This is my simple study plan for revising TC6544 Advanced Artificial Intelligenc
 - Genetic Algorithm: population, fitness, selection, crossover, mutation.
 - Hyper-Heuristics: low-level heuristic and selection idea.
 
-## Which algorithms need hand-calculation practice
+## Which algorithms need hand-calculation practice / 需要手算练习的算法
 
 - BFS and DFS visiting order on a small graph.
 - A* table calculation with `g`, `h`, and `f`.
@@ -24,7 +26,7 @@ This is my simple study plan for revising TC6544 Advanced Artificial Intelligenc
 - Tabu Search with a small tabu list.
 - Genetic Algorithm one generation: selection, crossover, mutation.
 
-## Which code demos I should understand
+## Which code demos I should understand / 需要看懂的代码示例
 
 - `bfs_dfs_state_space.py`: how queue and stack change the visiting order.
 - `a_star_search.py`: how the priority queue uses `f(n)`.
@@ -35,7 +37,7 @@ This is my simple study plan for revising TC6544 Advanced Artificial Intelligenc
 - `tabu_search_tsp.py`: how the tabu list reduces cycling.
 - `genetic_algorithm_maxone.py`: how fitness improves across generations.
 
-## Which topics are not covered yet
+## Which topics are not covered yet / 还没有覆盖的主题
 
 - Nature Inspired Algorithm I.
 - Nature Inspired Algorithm II.
@@ -43,3 +45,9 @@ This is my simple study plan for revising TC6544 Advanced Artificial Intelligenc
 - Fuzzy Logic.
 
 For these topics, I should not pretend I already understand them. I will add real notes after the lectures.
+
+## My revision reminder / 我的复习提醒
+
+I should not only memorize definitions. For each algorithm, I need to know what the current solution is, how the next choice is made, and why the algorithm may fail or get stuck.
+
+复习的时候不要只背名词。每个算法都要问自己：current solution 是什么？next move 怎么选？它为什么可能失败？它比前一个算法多了什么想法？

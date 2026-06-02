@@ -1,76 +1,59 @@
-# TTTC6544-Advanced-AI-Notes
+# TTTC6544 Advanced AI Notes
 
-## About this repository
+This repository contains my bilingual learning notes for the **TC6544 Advanced Artificial Intelligence** course.
 
-This repo is my personal learning portfolio for TC6544 Advanced Artificial Intelligence. I use it to record what I learned from lectures and to connect the theory with small Python examples. The notes are bilingual because I am still building my English academic vocabulary.
+I use this repo to organize each topic in a simple way, with Chinese explanations and English academic terms together so I can review the ideas more easily. The goal is not to make a perfect textbook, but to keep a clear study record that I can improve while learning.
 
-## Why I created this repo
+这个仓库用来整理我在 **TC6544 Advanced Artificial Intelligence** 课程中的双语学习笔记。
 
-I wanted one place to keep my revision notes, examples, and small reflections. Some topics are still a bit messy in my head, so I write them in my own words first instead of trying to sound like a textbook.
+我会把每个主题的内容分开放，尽量用比较清楚、适合复习的方式记录重点概念。中文部分帮助我理解算法的想法，英文术语帮助我熟悉课程和考试中常见的表达。
 
-## What this repo shows
+## Structure
 
-- I can organize lecture knowledge into structured notes.
-- I can connect AI search and optimization concepts with small Python demos.
-- I understand the basic differences between heuristic search, local search, metaheuristics, population-based algorithms, and hyper-heuristics.
-- I am still updating the repo as the course continues.
+```text
+notes/
+code/
+exercises/
+portfolio-summary.md
+README.md
+```
 
-## Course map
+The `notes` folder contains the main learning notes and comparison tables. The `code` folder contains small Python demos for search and optimization algorithms. The `exercises` folder is for revision plans, self-check questions, and common confusions.
 
-| No. | Topic | Status |
-|---|---|---|
-| 1 | Fundamental Concept of AI and Optimization | Covered |
-| 2 | State Space Search | Covered |
-| 3 | Basic / Heuristic Search Techniques | Covered |
-| 4 | Hill Climbing | Covered |
-| 5 | Simulated Annealing | Covered |
-| 6 | Great Deluge | Covered |
-| 7 | Tabu Search | Covered |
-| 8 | Genetic Algorithm | Covered |
-| 9 | Nature Inspired Algorithm I | Not covered yet |
-| 10 | Nature Inspired Algorithm II | Not covered yet |
-| 11 | Hyper-Heuristics | Covered |
-| 12 | Neural Network | Not covered yet |
-| 13 | Fuzzy Logic | Not covered yet |
+## Progress
 
-## Topics covered
-
-The current notes focus on AI as search and optimization. I have written more detail for the first few topics because those ideas keep appearing again in later algorithms.
-
-- AI and optimization basics
-- State space search
-- Heuristic search and A*
-- Local search and hill climbing
-- Simulated annealing
-- Great deluge
-- Tabu search
-- Genetic algorithm
-- Hyper-heuristics
+- [x] Topic 1: AI Optimization Basics
+- [x] Topic 2: State Space Search
+- [x] Topic 3: Heuristic Search and A*
+- [x] Topic 4: Local Search and Hill Climbing
+- [x] Topic 5: Simulated Annealing
+- [x] Topic 6: Great Deluge
+- [x] Topic 7: Tabu Search
+- [x] Topic 8: Genetic Algorithm
+- [ ] Topic 9: Nature Inspired Algorithm I
+- [ ] Topic 10: Nature Inspired Algorithm II
+- [x] Topic 11: Hyper-Heuristics
+- [ ] Topic 12: Neural Network
+- [ ] Topic 13: Fuzzy Logic
 
 ## Learning Roadmap
 
+```text
 AI Optimization Basics
 -> State Space Search
 -> Heuristic Search and A*
--> Local Search
--> Metaheuristics: SA, GD, Tabu Search
+-> Local Search and Hill Climbing
+-> Metaheuristics: Simulated Annealing, Great Deluge, Tabu Search
 -> Population-based Algorithm: Genetic Algorithm
 -> Hyper-Heuristics
--> Topics not covered yet: Nature Inspired Algorithms, Neural Network, Fuzzy Logic
+-> Future topics: Nature Inspired Algorithms, Neural Network, Fuzzy Logic
+```
 
-This roadmap helps me see the course as one connected learning path, instead of separate algorithms.
+This roadmap helps me see the course as one connected learning path, instead of separate algorithms that have to be memorized one by one.
 
-## Python demos
+## Python Demos
 
 The `code/` folder contains small Python scripts. They are not production code. They are just learning demos so I can see the algorithm steps printed in the terminal.
-
-## Current progress
-
-I have covered the topics taught so far in class. For topics not taught yet, I only created placeholder files with questions I want to come back to later.
-
-## How to run the code
-
-Use Python 3. No extra library is needed. On my Mac, I run the scripts with `python3`.
 
 ```bash
 python3 code/bfs_dfs_state_space.py
@@ -83,10 +66,8 @@ python3 code/tabu_search_tsp.py
 python3 code/genetic_algorithm_maxone.py
 ```
 
-## Reflection
+## Notes
 
-At first I thought many algorithms were totally different. After a few lectures, I started to see that many of them are trying to answer the same question: how do we move from the current solution to a better one without checking everything? I still need more practice with choosing objective functions and understanding when a heuristic is useful.
+These notes are written for my own learning portfolio. I may update the wording, add examples, or fix mistakes as I continue studying the course.
 
-## Note
-
-These notes are my own study summaries based on lectures and personal practice. They are not official course materials.
+这些笔记主要是我的个人学习记录，之后会继续补充例子、整理重点，也可能修改一些表达不清楚的地方。对于还没有正式学习的主题，我只先保留 placeholder，不假装已经完全理解。

@@ -1,4 +1,4 @@
-# Algorithm Comparison
+# Algorithm Comparison / 算法比较
 
 ## Why I need this table / 为什么需要比较
 
@@ -6,7 +6,9 @@ At first, many algorithms in this course looked similar to me because they all t
 
 This table is mainly for revision. It helps me compare the algorithms quickly before going back to detailed notes.
 
-## Comparison table
+这个表格主要是为了复习。考试前我可以先看这里，把几个算法的核心区别抓出来，再回到每一章的详细 notes。
+
+## Comparison Table / 比较表
 
 | Algorithm | Main idea | Accept worse solution? | Memory? | Single-solution or population-based? | My simple understanding |
 |---|---|---|---|---|---|
@@ -17,7 +19,7 @@ This table is mainly for revision. It helps me compare the algorithms quickly be
 | Genetic Algorithm | Improve a population using selection, crossover, mutation | Not in the same neighbour sense | Population keeps many candidates | Population-based | 一群解一起进化，不是只改一个 current solution |
 | Hyper-Heuristics | Choose or generate heuristics | Depends on selected heuristic and acceptance rule | May use performance history | Usually works above low-level heuristics | 不是直接改 solution，而是选择用哪个 heuristic |
 
-## My current understanding
+## My Current Understanding / 我的理解
 
 Hill Climbing is easiest but easy to get stuck. It is good for learning the basic idea of local search, but it is quite strict because it only accepts better neighbours.
 
@@ -29,14 +31,14 @@ GA searches with a population. I should remember that fitness function is used t
 
 Hyper-Heuristic is higher-level because it chooses heuristics rather than directly changing solutions. This one still feels more abstract to me, so I need more examples.
 
-## Common confusions
+## Common Confusions / 容易混淆的地方
 
 - Objective function vs fitness function: both evaluate quality, but fitness function is commonly used in GA.
 - Neighbour vs low-level heuristic: neighbour is a nearby solution; low-level heuristic is a rule that can create or modify solutions.
 - Metaheuristic vs hyper-heuristic: metaheuristic searches for solutions; hyper-heuristic chooses or generates heuristics.
 - Local optimum vs global optimum: local optimum is best nearby; global optimum is best overall.
 
-## Self-check questions
+## Self-check Questions / 自测问题
 
 1. Why does Hill Climbing easily get stuck in local optimum?
 2. What is the main difference between Simulated Annealing and Great Deluge?
